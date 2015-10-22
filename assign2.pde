@@ -136,16 +136,13 @@ case GAME_RUN:
     
     ey+=(yy-ey)/(xx-ex);
     
-    //if(ey<0){ey=0;}
-    //if(ey>440){ey=480;}
-    
-    println(ey);
+   
     
     
     
     
   
-  //ey=y+ex-x
+  
   
   
   
