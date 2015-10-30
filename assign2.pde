@@ -122,10 +122,11 @@ case GAME_RUN:
     ntx=tx;nty=ty;
     if(health<195){
     health+=20;
-     tx=floor(random(40,600));
-     ty=floor(random(40,400)); 
+     
   
   }
+  tx=floor(random(40,600));
+     ty=floor(random(40,400));
   }
   image(eny,ex,ey);
   ex+=4;
@@ -134,15 +135,15 @@ case GAME_RUN:
   if(t%60==0){xx=x;yy=y;}
     
     
-    ey+=(yy-ey)/(xx-ex);
+    ey+=(y-ey)/25;
     
-   
+    
     
     
     
     
   
-  
+
   
   
   
